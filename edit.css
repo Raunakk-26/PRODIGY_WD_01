@@ -1,0 +1,129 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    width: 50%;
+    min-height: 15vh;
+    border: 0;
+    padding-top: 15%;
+    padding-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 140px;
+}
+.search-bar{
+    width: 90%;
+    height: 40px;
+    max-width: 700%;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 5px 5px;
+}
+.search-txt{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 6px 20px;
+    font-size: 20px;
+    color: #b1b1c1;
+}
+::placeholder{
+    color: #b1b1c1;
+}
+.search-btn img{
+    width: 20px;
+}
+.search-btn{
+    border: 1;
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+    align-items: flex-end;
+    background: #c31212;
+    cursor: pointer;
+}
+.social{
+    padding-left: 1050px;
+    padding-right: 0px;
+    padding-top: 10px;
+}
+.blocks{
+    position: absolute;
+    padding-left: 170px;
+    width: 10px;
+    min-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.blocks a{
+    position: relative;
+    text-decoration: none;
+    color: #b1b1c1;
+}
+.blocks a::after{
+    content: "";
+    position: absolute;
+    display: block;
+    background-color: #c31212;
+    height: 3px;
+    width: 0;
+    left: 0;
+    transition: width .3s;
+}
+.blocks a:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
+.anime-names{
+    padding-left: 170px;
+}
+.img{
+    word-spacing: 0.6px;
+    padding-left: 120px;
+    padding-top: 60px;
+}
+.background{
+    padding-left: 100px;
+    padding-top: 70px;
+}
+.contacts{
+    text-decoration: none;
+    font-size: 13px;
+    color: antiquewhite;
+    background-color: rgb(22, 18, 18);
+    margin-left: 115px;
+    margin-top: 80px;
+    width: 750px;
+    padding-left: 40px;
+}
+.record{
+    padding-top: 20%;
+    padding-left: 10%;
+}
+.pagination{
+    border: 1px ;
+    padding: 20px;
+    display: inline;
+    padding-left: 800px;
+}
+.pagination a{
+    text-decoration: none;
+    font-size: 8px;
+    background-color: #c31212;
+    padding: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: white;
+
+    border-radius: 40px;
+}
+.pagination a.page-link:hover{
+    background-color: white;
+    color: black;
+    border: 3px #0ab;
+}
